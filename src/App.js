@@ -8,7 +8,7 @@ function App() {
       flexDirection: "column",
       alignItems: "center", 
       justifyContent: "flex-start",
-      background: 'linear-gradient(to right, black, #6fa056)',
+      background: 'linear-gradient(to right, #bebebe, #a9a9a9)',
       // #6fa056 darker green #8fbe70 lighter green
       height: '100vh'
     }}>
@@ -25,7 +25,7 @@ function App() {
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{delay: 3, duration: 2}}
-        style={{width: '100px', borderRadius: '50%', margin: '10px'}}
+        style={{width: '100px', borderRadius: '50%', margin: '10px', border: '1px solid black'}}
         />
         <motion.h1
           initial={{opacity: 0, y: -500}}
@@ -44,11 +44,14 @@ function App() {
         style={{
         width: '600px',
         height: '600px',
-        background: 'gray',
+        background: '#a9a9a9',
         margin: '10px',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        border: '1px solid black'
       }}>
-        <text >Hi</text>
+        <grid>
+          
+        </grid>
       </motion.div>
     </div>
   );

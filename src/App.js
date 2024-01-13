@@ -49,9 +49,18 @@ function App() {
         borderRadius: '10px',
         border: '1px solid black'
       }}>
-        <grid>
+        <div
+          style={{
+          width: '250px',
+          height: '250px',
+          margin: '10px',
+          backgroud: '#949494',
+          borderRadius: '10px',
+          border: '1px solid black'
+          }}
+        >
           
-        </grid>
+        </div>
       </motion.div>
     </div>
   );

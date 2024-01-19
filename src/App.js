@@ -64,7 +64,8 @@ function App() {
         >
           <text style={{ fontWeight: 'bold', margin: '5px', fontSize: '20px'}}>About Me:</text>
           <text style={{ fontWeight: 'bold', margin: '10px',}}>My name is Connor Feucht, and I am
-          a Co-op computer science student attending the University of Victoria!</text>
+          a Co-op computer science student attending the University of Victoria! In my free time I like to hang out
+          with my friends, play basketball, program, and play video games with my friends.</text>
         </div>
 
         <div

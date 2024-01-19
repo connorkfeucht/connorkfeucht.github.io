@@ -42,8 +42,11 @@ function App() {
         animate={{opacity: 1, x: 0}}
         transition={{delay: 2, duration: 3}}
         style={{
-        width: '600px',
-        height: '600px',
+        display: 'grid',
+        gridTemplateColumns: 'repeat(2, 1fr)',
+        gridGap: '10px',
+        width: '1000px',
+        height: '1000px',
         background: '#a9a9a9',
         margin: '10px',
         borderRadius: '10px',
@@ -51,15 +54,29 @@ function App() {
       }}>
         <div
           style={{
-          width: '250px',
+          width: '500px',
           height: '250px',
           margin: '10px',
           backgroud: '#949494',
           borderRadius: '10px',
-          border: '1px solid black'
+          border: '1px solid black',
           }}
         >
-          
+          <text style={{ fontWeight: 'bold', margin: '5px', fontSize: '20px'}}>About Me:</text>
+          <text style={{ fontWeight: 'bold', margin: '10px',}}>My name is Connor Feucht, and I am
+          a Co-op computer science student attending the University of Victoria!</text>
+        </div>
+
+        <div
+          style={{
+          width: '440px',
+          height: '500px',
+          margin: '10px',
+          backgroud: '#949494',
+          borderRadius: '10px',
+          border: '1px solid black',
+          }}
+        >
         </div>
       </motion.div>
     </div>

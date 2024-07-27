@@ -1,0 +1,13 @@
+body {
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    color: gainsboro;
+}
+
+img {
+    border-radius: 20px;
+}
